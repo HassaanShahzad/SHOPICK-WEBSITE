@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<div id="abc"></div>
+<button type="button" id="abc1" class="btn-success">Start</button>
+<button type="button" id="abc2" class="btn-success">Again</button>
+
+
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+            $('#abc1').click(function(){
+                $('#abc').animate({marginLeft: "78%"})
+                $('#abc').animate({top: "200px"})
+              
+
+            });
+            $('#abc2').click(function(){
+                $('#abc').css("background-color","black")
+           
+             $('#abc').animate({right: "78%"})
+             $('#abc').animate({top: "50px"})
+
+            });
+        });
+
+
+
+
+    </script>
+</body>
+</html>

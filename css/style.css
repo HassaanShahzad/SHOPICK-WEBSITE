@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#abc {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    margin-left: 10px;
+  position: relative;
+  top:50px;
+  
+
+}
+#abc1 {
+    width: 75px;
+    font-weight: bold;
+    padding: 5px;
+    position: relative;
+    bottom: 140px;
+    left: 20px;
+
+   
+}
+#abc2 {
+    width: 75px;
+    font-weight: bold;
+    padding: 5px;
+  position: relative;
+  left: 78%;
+  top: 220px;
+   
+}
